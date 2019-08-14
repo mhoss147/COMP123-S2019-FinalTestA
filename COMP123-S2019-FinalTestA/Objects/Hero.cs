@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  */
 namespace COMP123_S2019_FinalTestA.Objects
 {
-    class Hero
+    public class Hero
     {
         //private instance variables
         private string m_fighting;
@@ -134,7 +134,7 @@ namespace COMP123_S2019_FinalTestA.Objects
         List<Power> Powers;
 
         //constructor
-        Hero()
+       public Hero()
         {
             //instantiate an emplty power list
             Powers = new List<Power>();
